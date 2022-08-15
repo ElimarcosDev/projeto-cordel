@@ -72,12 +72,12 @@ section > p{
     background-color: rgba(251, 239, 239, 0.082);
 }
 #img01{
-    background-image: url('../imagens/background003.jpg');
+    background-image: url('../imagens/pexels-gary-barnes-6231827.jpg');
+    background-position: center;
     background-size: cover;
 }
 #img02{
-    background-image: url('../imagens/pexels-gary-barnes-6231827.jpg');
-    background-position: center;
+    background-image: url('../imagens/background003.jpg');
     background-size: cover;
 }
 
