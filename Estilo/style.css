@@ -62,14 +62,18 @@ section > p{
  }
 .imagem{
     background-color: rgb(24, 24, 24);
-    color: white;
+    color: #fff;
     text-shadow: 2px 2px 1px black;
     box-shadow: inset 2px 2px 15px rgba(0, 0, 0, 0.382);
     background-attachment: fixed;
 }
 .imagem > p{
     width: 200px;
-    background-color: rgba(251, 239, 239, 0.082);
+    
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    padding: 10px;
 }
 #img01{
     background-image: url('../imagens/pexels-gary-barnes-6231827.jpg');
